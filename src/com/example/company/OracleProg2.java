@@ -1,3 +1,5 @@
+package com.example.company;
+
 public class OracleProg2 {
 
     public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package com.example.company;
+
 public class OracleIntrvw {
 
     public static void main(String[] args) {

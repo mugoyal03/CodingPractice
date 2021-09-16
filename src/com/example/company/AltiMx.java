@@ -1,3 +1,5 @@
+package com.example.company;
+
 import java.util.*;
 
 public class AltiMx {

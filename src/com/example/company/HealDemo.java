@@ -1,3 +1,5 @@
+package com.example.company;
+
 import java.util.*;
 
 public class HealDemo {
@@ -12,7 +14,7 @@ public class HealDemo {
 
         Map<String,Integer> genderMap = new HashMap<>();
 
-        list.stream().forEach((e)->{
+        list.forEach((e)->{
             if("M".equals(e.getName)){
                 if(genderMap.containsKey(e.getName)){
                     genderMap.put("M", genderMap.get("M")+1);
